@@ -1,0 +1,9 @@
+{
+  "key.categories.angelkampf": "Angelkampf",
+  "key.angelkampf.config": "Einstellungen öffnen",
+  "angelkampf.config.title": "Angelkampf – Einstellungen",
+  "angelkampf.config.scale": "Größe: %s%%",
+  "angelkampf.config.offset": "Höhe über der Hotbar: %s",
+  "angelkampf.config.reset": "Zurücksetzen",
+  "angelkampf.config.preview": "Vorschau"
+}

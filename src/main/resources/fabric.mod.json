@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "angelkampf",
+  "version": "${version}",
+  "name": "Angelkampf",
+  "description": "Ersetzt das Tide-Minispiel durch einen Drill mit Spannungsleiste: einholen, Leine geben, nicht reißen lassen. Wetter, Tageszeit, Strömung, Tiefe und Rute beeinflussen den Kampf.",
+  "authors": ["Angelkampf"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["de.angelkampf.AngelkampfMod"],
+    "client": ["de.angelkampf.client.AngelkampfClient"],
+    "modmenu": ["de.angelkampf.client.ModMenuIntegration"]
+  },
+  "mixins": [
+    { "config": "angelkampf.mixins.json", "environment": "client" }
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.20.1",
+    "fabric-api": "*",
+    "java": ">=17"
+  },
+  "suggests": {
+    "tide": "*",
+    "modmenu": "*"
+  }
+}
